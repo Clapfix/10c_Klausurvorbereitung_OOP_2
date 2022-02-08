@@ -5,6 +5,8 @@ public class Test {
     //Felder (fields) | Attribute, Eigenschaften
     // private --> Kapselung / encapsulation/ data hiding
 
+    // privat !! GETTER SETTER !!
+
     private String name;
     private int age;
 
@@ -25,16 +27,14 @@ public class Test {
         this.name = name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     
+    }
 
-
-
-
-
-
-
-
-
-
-
-}
